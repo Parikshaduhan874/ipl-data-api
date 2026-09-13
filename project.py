@@ -9,7 +9,7 @@ app=FastAPI(title="IPL Data API",description="AI project")
 df_matches=pd.read_csv('matches.csv')
 df_deliveries=pd.read_csv('deliveries.csv')
 conn=sqlite3.connect("ipl.db",check_same_thread=False)
-#----------endpoint-1:dataset summary---------
+#----------endpoint-1:dataset summary--------
 @app.get("/summary")
 def get_summary():
     return{
