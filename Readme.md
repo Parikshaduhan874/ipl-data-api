@@ -5,7 +5,7 @@ A FastAPI application that exposes IPL cricket data
 SQL queries, and chart generation.
 
 ## Live Demo
-https://ipl-data-api.onrender.com/docs
+https://ipl-data-api-nb4e.onrender.com/docs
 
 ## Endpoints
 
