@@ -4,5 +4,4 @@ __pycache__/
 venv/
 .vscode/
 .env
-*.db
 .mypy_cache/
